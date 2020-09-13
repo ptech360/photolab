@@ -176,3 +176,20 @@
     --color: white;
   }
 }
+
+.slide-main .swiper-pagination-bullet {
+  width: 10px;
+  height: 2px;
+  background: #ddd;
+  opacity: 1;
+  border-radius: 0;
+}
+.slide-main .swiper-container {
+  overflow: visible !important;
+}
+.slide-main .swiper-container-horizontal>.swiper-pagination-bullets{
+  margin-bottom: -30px;
+}
+.slide-main span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #03A9F4;
+}

@@ -1,3 +1,17 @@
 ion-content ion-toolbar {
     --background: translucent;
 }
+.slide {
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    height: 110px;
+    overflow: hidden;
+    box-shadow: 0 0 4px #333;
+    margin: 5px 4px;
+}
+.slide img {
+    height: 100%;
+}
+.slide-main{
+    margin-top:10px;
+}

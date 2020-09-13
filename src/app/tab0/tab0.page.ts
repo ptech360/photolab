@@ -11,7 +11,11 @@ export class Tab0Page implements OnInit {
   // See http://idangero.us/swiper/api/ for valid options.
   slideOpts = {
     initialSlide: 1,
-    speed: 400
+    speed: 400,
+    slidesPerView: 1.1,
+    spaceBetween: 5,
+    centeredSlides: true,
+    
   };
 
   constructor() { }
