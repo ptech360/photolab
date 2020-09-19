@@ -4,7 +4,7 @@ ion-content ion-toolbar {
 .slide {
     border: 1px solid #ddd;
     border-radius: 7px;
-    height: 110px;
+    height: 150px;
     overflow: hidden;
     box-shadow: 0 0 4px #333;
     margin: 5px 4px;
@@ -14,4 +14,43 @@ ion-content ion-toolbar {
 }
 .slide-main{
     margin-top:10px;
+}
+
+.best-seller{
+    padding-top: 16px;
+    overflow-x: scroll;
+    position: relative;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    .title{
+        margin-left: 10px;
+    }
+    .product{
+        width: 200px;
+        border-radius: 5px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+.photo-books, .layflat-photobooks, .calendars, .card-stock-prints, .photo-prints, .decor, .gifts, .stationery, .essentials{
+    .title{
+        margin-left: 10px;
+    }
+    .more{
+        float: right;
+        margin-right: 10px;
+        a{
+            color: #f47a37;
+        }
+    }
+    .product{
+        margin: 10px;
+        border-radius: 5px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
 }
