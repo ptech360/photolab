@@ -1,4 +1,4 @@
-package io.ionic.pg.ng.cap;
+package com.drewsoft.photolab;
 
 import android.os.Bundle;
 

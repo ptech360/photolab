@@ -12,8 +12,8 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: () => 
-            import('../tab0/tab0.module').then(m => m.Tab0PageModule)
+            loadChildren: () =>
+              import('../tab0/tab0.module').then(m => m.Tab0PageModule)
           }
         ]
       },
@@ -49,14 +49,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/tab0',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/tab0',
     pathMatch: 'full'
   }
 ];
@@ -65,4 +65,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class TabsPageRoutingModule {}
+export class TabsPageRoutingModule { }
